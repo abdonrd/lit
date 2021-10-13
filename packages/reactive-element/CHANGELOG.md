@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.0.2
+
+### Patch Changes
+
+- [#2236](https://github.com/lit/lit/pull/2236) [`5fc3818`](https://github.com/lit/lit/commit/5fc3818afa43365b90b921ea0fd8f41e970e767f) - Prevent `polyfillSupport.noPatchSupported` from implicitly being `any`.
+  Deduplicate types for `DevMode`-suffixed polyfill support functions.
+
 ## 1.0.1
 
 ### Patch Changes
